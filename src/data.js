@@ -17,7 +17,7 @@ export const projects = [
         image: budgetImage2,
         challenges:
             'This was my first time developing a mobile app with React Native and Expo, which posed a challenge. It was also the first major project where I used Java with Spring Boot. ' +
-            'Integrating Spring Security presented additional challenges.',
+            'Integrating Spring Security also presented additional challenges.',
         whatILearned:
             'Gained experience in mobile development with React Native and Expo, as well as PostgreSQL, Java, JPA, and the Spring framework.',
         details:
