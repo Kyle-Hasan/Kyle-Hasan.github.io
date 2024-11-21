@@ -6,7 +6,7 @@ import jobPair1 from './assets/job-ai-answer.gif';
 import jobPair2 from './assets/job-ai-interview.gif';
 import jobPair3 from './assets/job-pair-login.gif';
 import empathyConnect from './assets/empathy-connect.png';
-
+import appalyticsImage from './assets/Google-Play-Store.webp'
 export const projects = [
     {
         id: 'budgetingApp',
@@ -89,5 +89,47 @@ export const projects = [
                 url: 'https://github.com/promatty/empathy-connect'
             }
         ]
+    },
+    {
+        id: 'empathyConnect',
+        title: 'Empathy Connect',
+        description:
+            'Empathy Connect allows users to sign up, log in, and join various communities. Users can create posts, comment on posts, and search for content across the platform. The application also provides features for managing user profiles and community memberships.',
+        technologies: ['Python', 'Flask', 'React', 'MySQL', 'Tailwind CSS'],
+        imageThumbnail: empathyConnect,
+        image: empathyConnect,
+        challenges: 'Integrating the backend and frontend.',
+        whatILearned: '',
+        details:
+            'For more details and a demo video, please view <a class="blue" href="https://devpost.com/software/empathy-connect" target="_blank" rel="noopener noreferrer">here</a>.',
+        gallery: [],
+        repoLinks: [
+            {
+                name: 'Repo',
+                url: 'https://github.com/promatty/empathy-connect'
+            }
+        ]
+    },
+    {
+        id: 'appalytics',
+        title: 'Appalytics',
+        description:
+            'Appalytics is a web application that leverages machine learning to analyze user sentiment from Google Play Store feedback. The platform provides actionable insights for app developers to enhance their applications based on user feedback.',
+        technologies: ['Python', 'Flask', 'React', 'MySQL', 'Bootstrap', 'CSS', 'JavaScript'],
+        imageThumbnail: appalyticsImage, 
+        image: appalyticsImage, 
+        challenges: 'Building seamless integration between machine learning pipelines and frontend components.',
+        whatILearned:
+            'Enhanced skills in designing full-stack applications, integrating machine learning models into web platforms, and deploying applications on Google Cloud.',
+        details:
+            'Appalytics analyzes user feedback from Google Play Store reviews, providing developers with sentiment analysis to improve their apps. Built with a full-stack approach, the platform processes data using Flask on the backend, stores it in MySQL, and visualizes insights using React and Bootstrap.',
+        gallery: [], 
+        repoLinks: [
+            {
+                name: 'Repo',
+                url: 'https://github.com/aabdrakmanov/frontend-seng401' 
+            }
+        ]
     }
+    
 ];
