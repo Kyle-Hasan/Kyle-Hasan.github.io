@@ -39,7 +39,7 @@ const Navbar = () => (
   
       <a
         href={resume}
-        download
+        download="Kyle_Hasan_Resume.pdf"
         className="text-lg hover:text-gray-200"
       >
         Download Resume
