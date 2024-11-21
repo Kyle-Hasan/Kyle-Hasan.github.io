@@ -10,7 +10,7 @@ import appalyticsImage from './assets/Google-Play-Store.webp'
 export const projects = [
     {
         id: 'budgetingApp',
-        title: 'Budgeting App',
+        title: 'Personal Finance Tracker',
         description: 'A mobile application for managing personal finances.',
         technologies: ['React Native', 'Java', 'Spring Boot', 'Expo', 'PostgreSQL'],
         imageThumbnail: budgetImage2,
