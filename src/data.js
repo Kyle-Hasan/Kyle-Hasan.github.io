@@ -53,7 +53,7 @@ export const projects = [
     whatILearned:
       'Gained more experience with react, firebase, flask and ChatGPT API.',
     details:
-      'AI is powered by ChatGPT AI. Offers AI powered mock interviews with feedback, and AI answer enchanced for job application questions.',
+      'AI is powered by ChatGPT AI. Offers AI-powered mock interviews with feedback, and AI-enchanced answers for job application questions.',
       gallery: [
         jobPair1,
         jobPair2,
