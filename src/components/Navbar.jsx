@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiMenu, HiX } from 'react-icons/hi';
 import resume from '../assets/Kyle_Hasan_Resume.pdf';
@@ -7,24 +7,29 @@ import resume from '../assets/Kyle_Hasan_Resume.pdf';
 const Navbar = ({ scrollToAbout, scrollToProjects }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const location = useLocation();
+  const navigate = useNavigate();
 
   const toggleMenu = () => setMenuOpen(!menuOpen);
+
+  
 
   return (
     <nav className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-4 shadow-lg sticky top-0 z-50">
       <div className="container mx-auto flex items-center justify-between px-6">
-        {/* Logo */}
+        
         <div className="flex items-center space-x-6">
           <Link to="/" className="text-2xl font-bold tracking-wide hover:text-gray-200">
             Kyle Hasan
           </Link>
 
-          {/* Navigation Links */}
+          
           <div className="hidden lg:flex items-center space-x-6">
             {location.pathname === '/' ? (
               <>
                 <button
-                  onClick={scrollToAbout}
+                  onClick={()=> {
+                 scrollToAbout()
+                  }}
                   className="text-lg hover:text-gray-200 focus:outline-none"
                 >
                   About Me
@@ -38,17 +43,36 @@ const Navbar = ({ scrollToAbout, scrollToProjects }) => {
               </>
             ) : (
               <>
-                <Link to="/" className="text-lg hover:text-gray-200">
+                 <>
+                <button
+                  onClick={()=> {
+                    navigate("/")
+                  setTimeout(()=> {
+                    scrollToAbout()
+                  } , 0)
+                 
+                  }}
+                  className="text-lg hover:text-gray-200 focus:outline-none"
+                >
                   About Me
-                </Link>
-                <Link to="/" className="text-lg hover:text-gray-200">
+                </button>
+                <button
+                  onClick={()=> {
+                    navigate("/")
+                  setTimeout(()=> {
+                    scrollToProjects()
+                  } , 0)
+                 
+                  }}
+                  className="text-lg hover:text-gray-200 focus:outline-none"
+                >
                   Projects
-                </Link>
+                </button>
+              </>
               </>
             )}
           </div>
 
-          {/* Social Links */}
           <div className="hidden lg:flex items-center space-x-6">
             <a
               href="https://github.com/Kyle-Hasan"
@@ -76,7 +100,7 @@ const Navbar = ({ scrollToAbout, scrollToProjects }) => {
           </div>
         </div>
 
-        {/* Burger Menu Icon */}
+       
         <div className="lg:hidden">
           <button
             onClick={toggleMenu}
@@ -87,7 +111,7 @@ const Navbar = ({ scrollToAbout, scrollToProjects }) => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
+ 
       <div
         className={`${
           menuOpen ? 'block' : 'hidden'

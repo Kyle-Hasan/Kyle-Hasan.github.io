@@ -133,10 +133,10 @@ const ProjectDetails = () => {
 
         <div className="text-center mt-8">
           <Link
-            to="/projects"
+            to="/"
             className="text-blue-600 hover:underline text-lg"
           >
-            Back to Projects
+            Back to Home
           </Link>
         </div>
       </div>

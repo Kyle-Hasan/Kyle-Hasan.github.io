@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Projects from './components/Projects';
@@ -10,9 +10,14 @@ import HomePage from './components/HomePage';
 function App() {
   const aboutRef = useRef(null);
   const projectsRef = useRef(null);
+ 
 
   const scrollToSection = (ref) => {
-    ref.current.scrollIntoView({ behavior: 'smooth' });
+   
+    
+      ref.current.scrollIntoView();
+    
+    
   };
 
   return (
