@@ -23,7 +23,7 @@ export const projects = [
         details:
             'The app allows users to track budgets, accounts, and transactions, including the ability to create recurring transactions. It is secured with Spring Security and implements features like virtual scrolling. Watch the demo below for more information.',
         video: 'https://www.youtube.com/embed/2hsucoveFRs?si=VfRwzKjRhSKtjJgO',
-        gallery: [budgetImage],
+        
         repoLinks: [
             {
                 url: "https://github.com/Kyle-Hasan/budgetAppBackend",
