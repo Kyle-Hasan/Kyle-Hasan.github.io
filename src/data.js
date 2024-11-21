@@ -16,10 +16,10 @@ export const projects = [
       imageThumbnail: budgetImage2,
       image: budgetImage2,
       challenges:
-      'This was my first time doing mobile app development with react native and expo so that was definetely a challenge. Also first big project I used java spring boot make.\n'+
+      'This was my first time doing mobile app development with react native and expo so that was a challenge. Also first big project I used java spring boot make.\n'+
       'Integrating spring security was also a challenge',
       whatILearned:
-      'Learned more about mobile development, react native, expo, java and the spring framework.',
+      'Learned more about mobile development, react native, expo, PostegreSQL, java, JPA and the spring framework.',
      details:
       'Allows users to keep tracks of budgets, accounts and transactions. Also allows users to create recurring transactions. Secured using spring security and implements stuff like virtual scroll. Watch demo below for more info.\n',
      video: 'https://www.youtube.com/embed/2hsucoveFRs?si=VfRwzKjRhSKtjJgO',
