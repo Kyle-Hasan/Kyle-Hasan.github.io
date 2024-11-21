@@ -6,9 +6,7 @@ const About = () => (
       <h1 className="text-4xl font-extrabold text-gray-800 mb-6">
         About Me
       </h1>
-      <p className="text-lg text-gray-600 mb-6">
-        I am a software engineering student at the University of Calgary with a passion for designing elegant, scalable solutions to complex problems. My focus is on creating impactful web applications and continuously growing as a developer.
-        On this site you can view more information about me and my work.
+      <p className="text-lg text-gray-600 mb-6">I am a fifth-year software engineering student at the University of Calgary with a passion for programming. I specialize in web development and am currently expanding my knowledge of cloud technologies. I will be graduating in December 2024 and am seeking a new graduate software developer position. On this site, you can find more information about me and my work.
       </p>
     </div>
   </section>
