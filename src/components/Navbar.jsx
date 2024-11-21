@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
-
+import resume from '../assets/Kyle_Hasan_Resume.pdf'
 const Navbar = () => (
   <nav className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-4 shadow-lg">
     <div className="container mx-auto flex items-center space-x-10 px-6">
@@ -38,7 +38,7 @@ const Navbar = () => (
 
   
       <a
-        href="/Kyle_Hasan_Resume.pdf"
+        href={resume}
         download
         className="text-lg hover:text-gray-200"
       >

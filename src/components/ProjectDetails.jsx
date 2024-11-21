@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import budgetAppImage from '../assets/budget-app.png'
 import Projects from './Projects';
 import { projects } from '../data';
+
 const ProjectDetails = () => {
   const { id } = useParams();
   const [project,setProject] = useState(projects.find(x=> id === x.id))
