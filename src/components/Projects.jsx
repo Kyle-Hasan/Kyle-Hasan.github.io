@@ -6,7 +6,7 @@ import budgetImage from '../assets/budget.png'
 import { projects } from '../data';
 
 const Projects = () => (
-  <section className="bg-gray-100 py-20">
+  <section id='projects' className="bg-gray-100 py-20">
     <div className="container mx-auto px-6">
       <h1 className="text-4xl font-extrabold text-gray-800 mb-10 text-center">
         Projects

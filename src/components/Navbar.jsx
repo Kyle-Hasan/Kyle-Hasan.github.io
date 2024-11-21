@@ -1,51 +1,151 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import resume from '../assets/Kyle_Hasan_Resume.pdf'
-const Navbar = () => (
-  <nav className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-4 shadow-lg">
-    <div className="container mx-auto flex items-center space-x-10 px-6">
-    
-      <Link to="/" className="text-2xl font-bold tracking-wide hover:text-gray-200">
-        Kyle Hasan
-      </Link>
+import { HiMenu, HiX } from 'react-icons/hi';
+import resume from '../assets/Kyle_Hasan_Resume.pdf';
 
-     
-      <Link to="/" className="text-lg hover:text-gray-200">
-        About Me
-      </Link>
-      <Link to="/projects" className="text-lg hover:text-gray-200">
-        Projects
-      </Link>
-      
-     
-      <a
-        href="https://github.com/Kyle-Hasan"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex items-center text-lg hover:text-gray-200"
-      >
-        <FaGithub className="mr-2" /> GitHub
-      </a>
-      <a
-        href="https://www.linkedin.com/in/kyle-hasan-721910228/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex items-center text-lg hover:text-gray-200"
-      >
-        <FaLinkedin className="mr-2" /> LinkedIn
-      </a>
+const Navbar = ({ scrollToAbout, scrollToProjects }) => {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const location = useLocation();
 
-  
-      <a
-        href={resume}
-        download="Kyle_Hasan_Resume.pdf"
-        className="text-lg hover:text-gray-200"
+  const toggleMenu = () => setMenuOpen(!menuOpen);
+
+  return (
+    <nav className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-4 shadow-lg sticky top-0 z-50">
+      <div className="container mx-auto flex items-center justify-between px-6">
+        {/* Logo */}
+        <div className="flex items-center space-x-6">
+          <Link to="/" className="text-2xl font-bold tracking-wide hover:text-gray-200">
+            Kyle Hasan
+          </Link>
+
+          {/* Navigation Links */}
+          <div className="hidden lg:flex items-center space-x-6">
+            {location.pathname === '/' ? (
+              <>
+                <button
+                  onClick={scrollToAbout}
+                  className="text-lg hover:text-gray-200 focus:outline-none"
+                >
+                  About Me
+                </button>
+                <button
+                  onClick={scrollToProjects}
+                  className="text-lg hover:text-gray-200 focus:outline-none"
+                >
+                  Projects
+                </button>
+              </>
+            ) : (
+              <>
+                <Link to="/" className="text-lg hover:text-gray-200">
+                  About Me
+                </Link>
+                <Link to="/" className="text-lg hover:text-gray-200">
+                  Projects
+                </Link>
+              </>
+            )}
+          </div>
+
+          {/* Social Links */}
+          <div className="hidden lg:flex items-center space-x-6">
+            <a
+              href="https://github.com/Kyle-Hasan"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center text-lg hover:text-gray-200"
+            >
+              <FaGithub className="mr-2" /> GitHub
+            </a>
+            <a
+              href="https://www.linkedin.com/in/kyle-hasan-721910228/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center text-lg hover:text-gray-200"
+            >
+              <FaLinkedin className="mr-2" /> LinkedIn
+            </a>
+            <a
+              href={resume}
+              download="Kyle_Hasan_Resume.pdf"
+              className="text-lg hover:text-gray-200"
+            >
+              Download Resume
+            </a>
+          </div>
+        </div>
+
+        {/* Burger Menu Icon */}
+        <div className="lg:hidden">
+          <button
+            onClick={toggleMenu}
+            className="text-3xl focus:outline-none hover:text-gray-200"
+          >
+            {menuOpen ? <HiX /> : <HiMenu />}
+          </button>
+        </div>
+      </div>
+
+      {/* Mobile Menu */}
+      <div
+        className={`${
+          menuOpen ? 'block' : 'hidden'
+        } lg:hidden bg-blue-600 text-white py-4`}
       >
-        Download Resume
-      </a>
-    </div>
-  </nav>
-);
+        <div className="flex flex-col space-y-4 px-6">
+          {location.pathname === '/' ? (
+            <>
+              <button
+                onClick={scrollToAbout}
+                className="text-lg hover:text-gray-200 focus:outline-none text-left"
+              >
+                About Me
+              </button>
+              <button
+                onClick={scrollToProjects}
+                className="text-lg hover:text-gray-200 focus:outline-none text-left"
+              >
+                Projects
+              </button>
+            </>
+          ) : (
+            <>
+              <Link to="/" className="text-lg hover:text-gray-200">
+                About Me
+              </Link>
+              <Link to="/" className="text-lg hover:text-gray-200">
+                Projects
+              </Link>
+            </>
+          )}
+          <a
+            href="https://github.com/Kyle-Hasan"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center text-lg hover:text-gray-200"
+          >
+            <FaGithub className="mr-2" /> GitHub
+          </a>
+          <a
+            href="https://www.linkedin.com/in/kyle-hasan-721910228/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center text-lg hover:text-gray-200"
+          >
+            <FaLinkedin className="mr-2" /> LinkedIn
+          </a>
+          <a
+            href={resume}
+            download="Kyle_Hasan_Resume.pdf"
+            className="text-lg hover:text-gray-200"
+          >
+            Download Resume
+          </a>
+        </div>
+      </div>
+    </nav>
+  );
+};
 
 export default Navbar;
