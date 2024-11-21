@@ -90,26 +90,7 @@ export const projects = [
             }
         ]
     },
-    {
-        id: 'empathyConnect',
-        title: 'Empathy Connect',
-        description:
-            'Empathy Connect allows users to sign up, log in, and join various communities. Users can create posts, comment on posts, and search for content across the platform. The application also provides features for managing user profiles and community memberships.',
-        technologies: ['Python', 'Flask', 'React', 'MySQL', 'Tailwind CSS'],
-        imageThumbnail: empathyConnect,
-        image: empathyConnect,
-        challenges: 'Integrating the backend and frontend.',
-        whatILearned: '',
-        details:
-            'For more details and a demo video, please view <a class="blue" href="https://devpost.com/software/empathy-connect" target="_blank" rel="noopener noreferrer">here</a>.',
-        gallery: [],
-        repoLinks: [
-            {
-                name: 'Repo',
-                url: 'https://github.com/promatty/empathy-connect'
-            }
-        ]
-    },
+    
     {
         id: 'appalytics',
         title: 'Appalytics',
