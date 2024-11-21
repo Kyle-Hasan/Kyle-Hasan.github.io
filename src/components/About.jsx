@@ -7,7 +7,7 @@ const About = () => (
         About Me
       </h1>
       <p className="text-lg text-gray-600 mb-6">
-        I am a software engineering student at the University with a passion for designing elegant, scalable solutions to complex problems. My focus is on creating impactful web applications and continuously growing as a developer.
+        I am a software engineering student at the University of Calgary with a passion for designing elegant, scalable solutions to complex problems. My focus is on creating impactful web applications and continuously growing as a developer.
         On this site you can view more information about me and my work.
       </p>
     </div>
