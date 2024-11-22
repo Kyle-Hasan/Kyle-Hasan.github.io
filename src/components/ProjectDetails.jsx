@@ -125,7 +125,7 @@ const ProjectDetails = () => {
             <div className="p-6">
               <h2 className="text-2xl font-bold text-gray-800 mb-4">Demo Video</h2>
               <div className="aspect-w-16 aspect-h-9">
-              <iframe width={600} height={560}  src="https://www.youtube.com/embed/2hsucoveFRs?si=VfRwzKjRhSKtjJgO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <iframe width={600} height={560}  src={project.video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               </div>
             </div>
           )}

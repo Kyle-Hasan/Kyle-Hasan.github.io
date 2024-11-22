@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useNavigate, HashRouter } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Projects from './components/Projects';
@@ -21,7 +21,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <HashRouter>
       <div className="flex flex-col min-h-screen bg-gray-50">
       <Navbar
           scrollToAbout={() => scrollToSection(aboutRef)}
@@ -37,7 +37,7 @@ function App() {
         </div>
         <Footer />
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
