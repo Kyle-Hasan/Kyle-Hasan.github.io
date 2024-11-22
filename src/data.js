@@ -22,7 +22,7 @@ export const projects = [
             'Gained experience in mobile development with React Native and Expo, as well as PostgreSQL, Java, JPA, and the Spring framework.',
         details:
             'The app allows users to track budgets, accounts, and transactions, including the ability to create recurring transactions. It is secured with Spring Security and implements features like virtual scrolling. Watch the demo below for more information.',
-        video: 'https://www.youtube.com/embed/2hsucoveFRs?si=VfRwzKjRhSKtjJgO',
+        video: '"https://www.youtube.com/embed/zWFPZSICG5w?si=r6rNkhCJ9F46Xywi"',
         
         repoLinks: [
             {
