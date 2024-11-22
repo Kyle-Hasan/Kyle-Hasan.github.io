@@ -23,6 +23,10 @@ export const projects = [
         details:
             'The app allows users to track budgets, accounts, and transactions, including the ability to create recurring transactions. It is secured with Spring Security and implements features like virtual scrolling. Watch the demo below for more information.',
         video: "https://www.youtube.com/embed/zWFPZSICG5w?si=tR9mVbHTM4w6Cmte",
+
+        gallery: [
+            budgetImage
+        ],
         
         repoLinks: [
             {
