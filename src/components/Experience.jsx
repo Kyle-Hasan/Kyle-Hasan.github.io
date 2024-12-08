@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Experience() {
   return (
-    <section id="experience" className="bg-white py-20">
+    <section id="experience" className="bg-white py-5">
   <div className="container mx-auto px-6 flex flex-col items-center justify-center">
     <h1 className="text-4xl font-extrabold text-gray-800 mb-10 text-center">
       Experience
