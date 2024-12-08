@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import budgetAppImage from '../assets/budget-app.jpg'
-import Projects from './Projects';
 import { projects } from '../data';
 
 const ProjectDetails = () => {

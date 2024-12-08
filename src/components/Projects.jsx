@@ -1,8 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import calgaryTransitImage from '../assets/calgary-transit.jpg'
-import jobFind from '../assets/job-find.jpg'
-import budgetImage from '../assets/budget.jpg'
 import { projects } from '../data';
 
 const Projects = () => (
