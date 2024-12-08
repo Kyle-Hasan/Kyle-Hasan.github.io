@@ -20,15 +20,11 @@ export default function Experience() {
       >
         Ripple Group 
       </a>
-      <span>/</span>
-      <a href="https://www.izzyplatform.com"
-        target="_blank"
-        className="text-blue-600 font-semibold">
-        Izzy Platform
-      </a>
+      
       <p className="text-gray-500">May 2023 - August 2024</p>
       <ul className="list-disc list-inside text-gray-600 mt-2">
         <li> <span className='font-bold'>Tech stack </span>: .NET, Angular, C#, CSS, Entity Framework, HTML, Git, Microsoft SQL Server, TypeScript.</li>
+        <li>Mainly worked on<a href="https://www.izzyplatform.com"target="_blank" className="text-blue-600 font-semibold"> Izzy Platform.</a></li>
         <li>Developed both backend and frontend components for case management and call helpline web applications used
         by 22+ nonprofit organizations.</li>
         <li>Created a C# program to periodically synchronize data between a Microsoft Access database and a Microsoft SQL
