@@ -5,11 +5,11 @@ const About = () => (
   <div className="container mx-auto px-6 text-center">
  
     <div className="mb-8">
-      <h1 className="text-6xl font-extrabold text-gray-800">
+      <h1 className="text-4xl font-extrabold text-gray-800">
         Kyle Hasan
       </h1>
       <p className="text-2xl font-semibold text-gray-600 mt-2">
-        Full-Stack Developer
+        Full Stack Developer
       </p>
       <p className="text-lg text-gray-500 mt-2">
         Based in Calgary, Alberta, Canada
@@ -17,7 +17,7 @@ const About = () => (
     </div>
 
 
-    <h2 className="text-4xl font-bold text-gray-800 mb-6">
+    <h2 className="text-2xl font-bold text-gray-800 mb-6">
       About Me
     </h2>
     <p className="text-lg text-gray-600 mb-6">
