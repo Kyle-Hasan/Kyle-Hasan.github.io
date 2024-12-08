@@ -9,7 +9,7 @@ export default function Experience() {
     </h1>
 
   
-    <div className="mb-10">
+    <div className="mb-10 flex flex-col xl:w-[60%] lg:w-2/3 xl:ml-48 lg:ml-36">
       <h2 className="text-xl font-bold text-gray-700">
         Software Engineer Intern - Calgary, Alberta, Canada
       </h2>
@@ -22,7 +22,7 @@ export default function Experience() {
       </a>
       
       <p className="text-gray-500">May 2023 - August 2024</p>
-      <ul className="list-disc list-inside text-gray-600 mt-2">
+      <ul className="list-disc list-inside text-gray-600 mt-2 flex flex-col justify-center ">
         <li> <span className='font-bold'>Tech stack </span>: .NET, Angular, C#, CSS, Entity Framework, HTML, Git, Microsoft SQL Server, TypeScript.</li>
         <li>Mainly worked on<a href="https://www.izzyplatform.com"target="_blank" className="text-blue-600 font-semibold"> Izzy Platform.</a></li>
         <li>Developed both backend and frontend components for case management and call helpline web applications used
