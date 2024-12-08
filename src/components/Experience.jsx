@@ -22,11 +22,10 @@ export default function Experience() {
       </a>
       
       <p className="text-gray-500">May 2023 - August 2024</p>
-      <ul className="list-disc list-inside text-gray-600 mt-2 flex flex-col justify-center ">
+      <ul className="list-disc list-outside text-gray-600 mt-2 flex flex-col justify-center ">
         <li> <span className='font-bold'>Tech stack </span>: .NET, Angular, C#, CSS, Entity Framework, HTML, Git, Microsoft SQL Server, TypeScript.</li>
         <li>Mainly worked on<a href="https://www.izzyplatform.com"target="_blank" className="text-blue-600 font-semibold"> Izzy Platform.</a></li>
-        <li>Developed both backend and frontend components for case management and call helpline web applications used
-        by 22+ nonprofit organizations.</li>
+        <li>Developed both backend and frontend components for case management and call helpline web applications used by 22+ nonprofit organizations.</li>
         <li>Created a C# program to periodically synchronize data between a Microsoft Access database and a Microsoft SQL
         Server database, successfully securing a key client by meeting their requirements.</li>
         <li>Implemented browser-based calling for the call helpline application, handling 1,000+ calls per month.</li>
