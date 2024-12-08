@@ -17,7 +17,11 @@ function App() {
   const scrollToSection = (ref) => {
    
     
-      ref.current.scrollIntoView();
+    ref.current.scrollIntoView({
+      behavior: 'auto',
+      block: 'start', 
+      inline: 'nearest',
+    });
     
     
   };

@@ -8,6 +8,44 @@ import jobPair3 from './assets/job-pair-login.gif';
 import empathyConnect from './assets/empathy-connect.png';
 import appalyticsImage from './assets/Google-Play-Store.webp'
 export const projects = [
+
+    {
+        id: 'transitSolutions',
+        title: 'Calgary Transit Unauthorized Vehicle Detection',
+        briefDescription: 'An automated system that uses machine learning to detect unauthorized vehicles in bus-only lanes and crossings. Includes a desktop application for visualizing violations.',
+        description:
+            'An automated system that uses machine learning to detect unauthorized vehicles in bus-only lanes and crossings. Includes a desktop application made using Electron.js for visualizing violations. This project was developed in collaboration with Calgary Transit for a capstone project. Code is not shared at the request of Calgary Transit.',
+        technologies: ['YOLOv8', 'Python', 'Flask', 'React', 'Electron.js', 'MySQL'],
+        imageThumbnail: calgaryTransitImage,
+        image: calgaryTransitImage,
+        challenges:
+            'I had limited knowledge of machine learning prior to this project and no experience with Electron.js or desktop application development.',
+        whatILearned:
+            'Gained experience with computer vision using YOLOv8, cross-platform desktop app development with Electron.js, and building Python Flask REST APIs with user-friendly frontends.',
+        details:
+            'The system processes videos collected during bus operations to automatically detect violations. Email notifications are sent with details such as license plate numbers, time, date, pictures, and locations. A desktop application allows users to view and organize this information. Roboflow was used to label and organize datasets.',
+        gallery: [calgaryTransitImage]
+    },
+   
+
+    {
+        id: 'jobPair',
+        title: 'JobpAIr: Smart Job Application Assistant',
+        briefDescription:'A mobile-friendly web app that uses machine learning to recommend personalized job postings, autofill applications, and enhance interview skills, streamlining the job application process.',
+        description:
+            'A mobile-friendly web app that uses machine learning to recommend personalized job postings, autofill applications, and enhance interview skills, streamlining the job application process.',
+        technologies: ['Flask', 'Python', 'React', 'Firebase'],
+        imageThumbnail: jobFind,
+        image: jobFind,
+        challenges:
+            'Managing state in React and working with the ChatGPT API and Firebase for the first time.',
+        whatILearned:
+            'Gained experience with React, Firebase, Flask, and the ChatGPT API.',
+        details:
+            'The AI is powered by ChatGPT and provides AI-enhanced mock interviews with feedback as well as AI-generated answers to job application questions.',
+        gallery: [jobPair1, jobPair2, jobPair3]
+    },
+
     {
         id: 'budgetingApp',
         title: 'Personal Finance Tracker',
@@ -41,41 +79,7 @@ export const projects = [
         ]
     },
 
-    {
-        id: 'jobPair',
-        title: 'JobpAIr: Smart Job Application Assistant',
-        briefDescription:'A mobile-friendly web app that uses machine learning to recommend personalized job postings, autofill applications, and enhance interview skills, streamlining the job application process.',
-        description:
-            'A mobile-friendly web app that uses machine learning to recommend personalized job postings, autofill applications, and enhance interview skills, streamlining the job application process.',
-        technologies: ['Flask', 'Python', 'React', 'Firebase'],
-        imageThumbnail: jobFind,
-        image: jobFind,
-        challenges:
-            'Managing state in React and working with the ChatGPT API and Firebase for the first time.',
-        whatILearned:
-            'Gained experience with React, Firebase, Flask, and the ChatGPT API.',
-        details:
-            'The AI is powered by ChatGPT and provides AI-enhanced mock interviews with feedback as well as AI-generated answers to job application questions.',
-        gallery: [jobPair1, jobPair2, jobPair3]
-    },
-
-    {
-        id: 'transitSolutions',
-        title: 'Calgary Transit Unauthorized Vehicle Detection',
-        briefDescription: 'An automated system using machine learning to detect unauthorized vehicles in bus-only lanes and crossings. Includes a desktop application for visualizing violations.',
-        description:
-            'An automated system using machine learning to detect unauthorized vehicles in bus-only lanes and crossings. Includes a desktop application made using Electron.js for visualizing violations. This project was developed in collaboration with Calgary Transit for a capstone project. Code is not shared at the request of Calgary Transit.',
-        technologies: ['YOLOv8', 'Python', 'Flask', 'React', 'Electron.js', 'MySQL'],
-        imageThumbnail: calgaryTransitImage,
-        image: calgaryTransitImage,
-        challenges:
-            'I had limited knowledge of machine learning prior to this project and no experience with Electron.js or desktop application development.',
-        whatILearned:
-            'Gained experience with computer vision using YOLOv8, cross-platform desktop app development with Electron.js, and building Python Flask REST APIs with user-friendly frontends.',
-        details:
-            'The system processes videos collected during bus operations to automatically detect violations. Email notifications are sent with details such as license plate numbers, time, date, pictures, and locations. A desktop application allows users to view and organize this information. Roboflow was used to label and organize datasets.',
-        gallery: [calgaryTransitImage]
-    },
+    
 
     {
         id: 'empathyConnect',
