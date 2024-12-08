@@ -11,7 +11,7 @@ const Projects = () => (
       <h1 className="text-4xl font-extrabold text-gray-800 mb-10 text-center ">
         Projects
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 project-card">
+      <div className="grid grid-cols-1 xl:grid-cols-3 md:grid-cols-2 gap-8 project-card">
         {projects.map(project => (
           <div
             key={project.id}
@@ -22,7 +22,7 @@ const Projects = () => (
               alt={project.title}
               className="rounded-t-lg object-cover h-48 w-full"
             />
-            <div className="p-6 h-1/4">
+            <div className="p-6">
               <h2 className="text-2xl font-semibold text-gray-800 mb-2">
                 {project.title}
               </h2>

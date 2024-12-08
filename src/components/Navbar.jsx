@@ -43,12 +43,7 @@ const Navbar = ({ scrollToAbout, scrollToProjects,scrollToSkills, scrollToExperi
                   Projects
                 </button>
 
-                <button
-                  onClick={scrollToExperience}
-                  className="text-lg hover:text-gray-200 focus:outline-none"
-                >
-                  Experience
-                </button>
+               
 
                 <button
                   onClick={()=> {
@@ -57,6 +52,13 @@ const Navbar = ({ scrollToAbout, scrollToProjects,scrollToSkills, scrollToExperi
                   className="text-lg hover:text-gray-200 focus:outline-none"
                 >
                   Skills
+                </button>
+
+                <button
+                  onClick={scrollToExperience}
+                  className="text-lg hover:text-gray-200 focus:outline-none"
+                >
+                  Experience
                 </button>
               </>
             ) : (
@@ -85,6 +87,30 @@ const Navbar = ({ scrollToAbout, scrollToProjects,scrollToSkills, scrollToExperi
                   className="text-lg hover:text-gray-200 focus:outline-none"
                 >
                   Projects
+                </button>
+                <button
+                  onClick={()=> {
+                    navigate("/")
+                  setTimeout(()=> {
+                    scrollToSkills()
+                  } , 0)
+                 
+                  }}
+                  className="text-lg hover:text-gray-200 focus:outline-none"
+                >
+                  Skills
+                </button>
+                <button
+                  onClick={()=> {
+                    navigate("/")
+                  setTimeout(()=> {
+                    scrollToExperience()
+                  } , 0)
+                 
+                  }}
+                  className="text-lg hover:text-gray-200 focus:outline-none"
+                >
+                  Experience
                 </button>
               </>
               </>
@@ -149,6 +175,18 @@ const Navbar = ({ scrollToAbout, scrollToProjects,scrollToSkills, scrollToExperi
                 className="text-lg hover:text-gray-200 focus:outline-none text-left"
               >
                 Projects
+              </button>
+              <button
+                onClick={scrollToSkills}
+                className="text-lg hover:text-gray-200 focus:outline-none text-left"
+              >
+                Skills
+              </button>
+              <button
+                onClick={scrollToExperience}
+                className="text-lg hover:text-gray-200 focus:outline-none text-left"
+              >
+                Experience
               </button>
             </>
           ) : (

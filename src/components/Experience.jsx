@@ -11,7 +11,7 @@ export default function Experience() {
   
     <div className="mb-10">
       <h2 className="text-xl font-bold text-gray-700">
-        Software Development Intern, Calgary, Alberta, Canada
+        Software Engineer Intern, Calgary, Alberta, Canada
       </h2>
       <a
         href="https://www.ripplegroup.ca"
