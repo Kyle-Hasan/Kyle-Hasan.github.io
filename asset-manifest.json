@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ff81d694.css",
-    "main.js": "/static/js/main.b609397e.js",
+    "main.js": "/static/js/main.2276d421.js",
     "static/js/453.96cba20d.chunk.js": "/static/js/453.96cba20d.chunk.js",
     "static/media/job-pair-login.gif": "/static/media/job-pair-login.ed3bb37b8cb7cc8c3e37.gif",
     "static/media/empathy-connect.png": "/static/media/empathy-connect.100cc76c9860f2b69bb2.png",
@@ -13,7 +13,7 @@
     "static/media/calgary-transit.png": "/static/media/calgary-transit.225ef56e65955baadabe.png",
     "static/media/budget-app.png": "/static/media/budget-app.c1743aff2b0475ae0337.png",
     "static/media/python.png": "/static/media/python.521b5358db06f7d70bba.png",
-    "static/media/Kyle_Hasan_Resume.pdf": "/static/media/Kyle_Hasan_Resume.b7a3e076a1f22228a69d.pdf",
+    "static/media/Kyle_Hasan_Resume.pdf": "/static/media/Kyle_Hasan_Resume.1d60c12b48927260dbf4.pdf",
     "static/media/tailwindcss.png": "/static/media/tailwindcss.54b45f9604cc9db79620.png",
     "static/media/angular.png": "/static/media/angular.d0c8ed3a16d1171b688a.png",
     "static/media/postgres.png": "/static/media/postgres.6857047a76a64278cb97.png",
@@ -36,11 +36,11 @@
     "static/media/css.png": "/static/media/css.23220016a948042dfa1a.png",
     "index.html": "/index.html",
     "main.ff81d694.css.map": "/static/css/main.ff81d694.css.map",
-    "main.b609397e.js.map": "/static/js/main.b609397e.js.map",
+    "main.2276d421.js.map": "/static/js/main.2276d421.js.map",
     "453.96cba20d.chunk.js.map": "/static/js/453.96cba20d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ff81d694.css",
-    "static/js/main.b609397e.js"
+    "static/js/main.2276d421.js"
   ]
 }
