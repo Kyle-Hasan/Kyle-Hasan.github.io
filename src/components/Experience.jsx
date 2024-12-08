@@ -9,7 +9,7 @@ export default function Experience() {
     </h1>
 
   
-    <div className="mb-10 flex flex-col xl:w-[60%] lg:w-2/3 xl:ml-48 lg:ml-36">
+    <div className="mb-10 flex flex-col xl:w-[60%] lg:w-2/3 xl:ml-48 lg:ml-36 md:ml-8">
       <h2 className="text-xl font-bold text-gray-700">
         Software Engineer Intern - Calgary, Alberta, Canada
       </h2>

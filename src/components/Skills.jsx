@@ -71,7 +71,7 @@ export default function Skills() {
     </div>
 
     <div className="mb-12">
-      <h2 className="text-2xl font-bold text-gray-700 mb-6">Frameworks/Libraries/Runtimes</h2>
+      <h2 className="text-2xl font-bold text-gray-700 mb-6 break-words">Frameworks / Libraries / Runtimes</h2>
       <div className="flex flex-wrap justify-center gap-6">
         <div className="flex flex-col items-center">
           <img src={dotnet} alt=".NET" className="h-16 w-16 mb-2" />
