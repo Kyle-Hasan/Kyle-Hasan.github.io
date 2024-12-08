@@ -1,11 +1,11 @@
-import calgaryTransitImage from './assets/calgary-transit.png';
-import jobFind from './assets/job-find.png';
-import budgetImage from './assets/budget-app.png';
-import budgetImage2 from './assets/budget.png';
+import calgaryTransitImage from './assets/calgary-transit.webp';
+import jobFind from './assets/job-find.webp';
+import budgetImage from './assets/budget-app.webp';
+import budgetImage2 from './assets/budget.webp';
 import jobPair1 from './assets/job-ai-answer.gif';
 import jobPair2 from './assets/job-ai-interview.gif';
 import jobPair3 from './assets/job-pair-login.gif';
-import empathyConnect from './assets/empathy-connect.png';
+import empathyConnect from './assets/empathy-connect.webp';
 import appalyticsImage from './assets/Google-Play-Store.webp'
 export const projects = [
 
@@ -94,7 +94,7 @@ export const projects = [
         whatILearned: '',
         details:
             'For more details and a demo video, please view <a class="blue" href="https://devpost.com/software/empathy-connect" target="_blank" rel="noopener noreferrer">here</a>.',
-        gallery: [],
+        gallery: [empathyConnect],
         repoLinks: [
             {
                 name: 'Repo',

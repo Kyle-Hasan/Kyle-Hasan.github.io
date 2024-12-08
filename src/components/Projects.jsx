@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import calgaryTransitImage from '../assets/calgary-transit.png'
-import jobFind from '../assets/job-find.png'
-import budgetImage from '../assets/budget.png'
+import calgaryTransitImage from '../assets/calgary-transit.jpg'
+import jobFind from '../assets/job-find.jpg'
+import budgetImage from '../assets/budget.jpg'
 import { projects } from '../data';
 
 const Projects = () => (
@@ -18,6 +18,7 @@ const Projects = () => (
             className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
           >
             <img
+              loading="lazy"
               src={project.imageThumbnail}
               alt={project.title}
               className="rounded-t-lg object-cover h-48 w-full"

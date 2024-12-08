@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import budgetAppImage from '../assets/budget-app.png'
+import budgetAppImage from '../assets/budget-app.jpg'
 import Projects from './Projects';
 import { projects } from '../data';
 
@@ -29,12 +29,8 @@ const ProjectDetails = () => {
         <div className="bg-white rounded-lg shadow-md overflow-hidden p-5">
        
           <div className="relative">
-            <img
-              src={project.image}
-              alt={project.title}
-              className="w-full h-64 object-cover"
-            />
-            <div className="absolute bottom-0 left-0 bg-gradient-to-t from-black to-transparent p-6 text-white w-full">
+           
+            <div className="p-6 w-full">
               <h1 className="text-3xl font-bold">{project.title}</h1>
             </div>
           </div>
@@ -53,6 +49,24 @@ const ProjectDetails = () => {
       dangerouslySetInnerHTML={{ __html: project.details }}
     />
   )}
+
+{project.gallery && project.gallery.length > 1 && (
+  <div className="p-6">
+    <h2 className="text-2xl font-bold text-gray-800 mb-4">Gallery</h2>
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      {project.gallery.map((img, index) => (
+        <img
+          key={index}
+          src={img}
+          alt={`Gallery item ${index + 1}`}
+          className="w-full max-w-[400px] h-full object-cover rounded-lg shadow-md mx-auto"
+        />
+      ))}
+    </div>
+  </div>
+)}
+
+
             {project.technologies && (
               <p className="text-gray-600 mb-4">
                 <strong>Technologies:</strong> {project.technologies.join(', ')}
@@ -67,6 +81,24 @@ const ProjectDetails = () => {
               </div>
             </div>
           )}
+
+{project.gallery && project.gallery.length === 1 && (
+  <div className="p-6">
+    <h2 className="text-2xl font-bold text-gray-800 mb-4">Gallery</h2>
+    <div>
+      {project.gallery.map((img, index) => (
+        <img
+          key={index}
+          src={img}
+          alt={`Gallery item ${index + 1}`}
+      
+        />
+      ))}
+    </div>
+  </div>
+)}
+
+
             {project.challenges && (
               <p className="text-gray-800 mb-4">
                 <strong>Challenges:</strong> {project.challenges}
@@ -100,37 +132,7 @@ const ProjectDetails = () => {
   )}
 
        
-          {project.gallery && project.gallery.length > 1 && (
-  <div className="p-6">
-    <h2 className="text-2xl font-bold text-gray-800 mb-4">Gallery</h2>
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-      {project.gallery.map((img, index) => (
-        <img
-          key={index}
-          src={img}
-          alt={`Gallery item ${index + 1}`}
-          className="w-full max-w-[400px] h-full object-cover rounded-lg shadow-md mx-auto"
-        />
-      ))}
-    </div>
-  </div>
-)}
-
-{project.gallery && project.gallery.length === 1 && (
-  <div className="p-6">
-    <h2 className="text-2xl font-bold text-gray-800 mb-4">Gallery</h2>
-    <div>
-      {project.gallery.map((img, index) => (
-        <img
-          key={index}
-          src={img}
-          alt={`Gallery item ${index + 1}`}
-      
-        />
-      ))}
-    </div>
-  </div>
-)}
+  
 
 
         
