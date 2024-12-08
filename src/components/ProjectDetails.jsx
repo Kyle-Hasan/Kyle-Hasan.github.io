@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import budgetAppImage from '../assets/budget-app.png'
 import Projects from './Projects';
@@ -7,6 +7,10 @@ import { projects } from '../data';
 const ProjectDetails = () => {
   const { id } = useParams();
   const [project,setProject] = useState(projects.find(x=> id === x.id))
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   if (!project) {
     return (
@@ -22,7 +26,7 @@ const ProjectDetails = () => {
   return (
     <div className="bg-gray-100 min-h-screen py-10">
       <div className="container mx-auto px-6">
-        <div className="bg-white rounded-lg shadow-md overflow-hidden">
+        <div className="bg-white rounded-lg shadow-md overflow-hidden p-5">
        
           <div className="relative">
             <img
@@ -54,6 +58,15 @@ const ProjectDetails = () => {
                 <strong>Technologies:</strong> {project.technologies.join(', ')}
               </p>
             )}
+
+{project.video && (
+            <div className="p-6">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4">Demo Video</h2>
+              <div className="aspect-w-16 aspect-h-9">
+              <iframe width={600} height={560}  src={project.video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+            </div>
+          )}
             {project.challenges && (
               <p className="text-gray-800 mb-4">
                 <strong>Challenges:</strong> {project.challenges}
@@ -121,14 +134,7 @@ const ProjectDetails = () => {
 
 
         
-          {project.video && (
-            <div className="p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">Demo Video</h2>
-              <div className="aspect-w-16 aspect-h-9">
-              <iframe width={600} height={560}  src={project.video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-              </div>
-            </div>
-          )}
+          
         </div>
 
         <div className="text-center mt-8">

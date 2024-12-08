@@ -10,6 +10,8 @@ import HomePage from './components/HomePage';
 function App() {
   const aboutRef = useRef(null);
   const projectsRef = useRef(null);
+  const skillsRef= useRef(null)
+  const experienceRef = useRef(null)
  
 
   const scrollToSection = (ref) => {
@@ -26,11 +28,13 @@ function App() {
       <Navbar
           scrollToAbout={() => scrollToSection(aboutRef)}
           scrollToProjects={() => scrollToSection(projectsRef)}
+          scrollToSkills = {()=> scrollToSection(skillsRef)}
+          scrollToExperience={()=> scrollToSection(experienceRef)}
         />
         <div className="flex-grow">
           <Routes>
             <Route path="/" element={<HomePage aboutRef={aboutRef}
-                  projectsRef={projectsRef} />} />
+                  projectsRef={projectsRef} skillsRef={skillsRef} experienceRef={experienceRef} />} />
           
             <Route path="/projects/:id" element={<ProjectDetails />} />
           </Routes>

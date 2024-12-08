@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiMenu, HiX } from 'react-icons/hi';
 import resume from '../assets/Kyle_Hasan_Resume.pdf';
 
-const Navbar = ({ scrollToAbout, scrollToProjects }) => {
+const Navbar = ({ scrollToAbout, scrollToProjects,scrollToSkills, scrollToExperience }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
@@ -34,11 +34,29 @@ const Navbar = ({ scrollToAbout, scrollToProjects }) => {
                 >
                   About Me
                 </button>
+                
+              
                 <button
                   onClick={scrollToProjects}
                   className="text-lg hover:text-gray-200 focus:outline-none"
                 >
                   Projects
+                </button>
+
+                <button
+                  onClick={scrollToExperience}
+                  className="text-lg hover:text-gray-200 focus:outline-none"
+                >
+                  Experience
+                </button>
+
+                <button
+                  onClick={()=> {
+                 scrollToSkills()
+                  }}
+                  className="text-lg hover:text-gray-200 focus:outline-none"
+                >
+                  Skills
                 </button>
               </>
             ) : (

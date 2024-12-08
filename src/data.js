@@ -12,6 +12,7 @@ export const projects = [
         id: 'budgetingApp',
         title: 'Personal Finance Tracker',
         description: 'A mobile application for managing personal finances.',
+        briefDescription: 'A mobile application for managing personal finances.',
         technologies: ['React Native', 'Java', 'Spring Boot', 'Expo', 'PostgreSQL'],
         imageThumbnail: budgetImage2,
         image: budgetImage2,
@@ -43,6 +44,7 @@ export const projects = [
     {
         id: 'jobPair',
         title: 'JobpAIr: Smart Job Application Assistant',
+        briefDescription:'A mobile-friendly web app that uses machine learning to recommend personalized job postings, autofill applications, and enhance interview skills, streamlining the job application process.',
         description:
             'A mobile-friendly web app that uses machine learning to recommend personalized job postings, autofill applications, and enhance interview skills, streamlining the job application process.',
         technologies: ['Flask', 'Python', 'React', 'Firebase'],
@@ -60,8 +62,9 @@ export const projects = [
     {
         id: 'transitSolutions',
         title: 'Calgary Transit Unauthorized Vehicle Detection',
+        briefDescription: 'An automated system using machine learning to detect unauthorized vehicles in bus-only lanes and crossings. Includes a desktop application for visualizing violations.',
         description:
-            'An automated system using machine learning to detect unauthorized vehicles in bus-only lanes and crossings. A desktop application made with Electron.js visualizes violations. This project was developed in collaboration with Calgary Transit for a capstone project. Code is not shared at the request of Calgary Transit.',
+            'An automated system using machine learning to detect unauthorized vehicles in bus-only lanes and crossings. Includes a desktop application made using Electron.js for visualizing violations. This project was developed in collaboration with Calgary Transit for a capstone project. Code is not shared at the request of Calgary Transit.',
         technologies: ['YOLOv8', 'Python', 'Flask', 'React', 'Electron.js', 'MySQL'],
         imageThumbnail: calgaryTransitImage,
         image: calgaryTransitImage,
@@ -77,6 +80,7 @@ export const projects = [
     {
         id: 'empathyConnect',
         title: 'Empathy Connect',
+        briefDescription: 'A social media site that allows users to sign up, log in, and join various communities.',
         description:
             'Empathy Connect allows users to sign up, log in, and join various communities. Users can create posts, comment on posts, and search for content across the platform. The application also provides features for managing user profiles and community memberships.',
         technologies: ['Python', 'Flask', 'React', 'MySQL', 'Tailwind CSS'],
@@ -98,6 +102,7 @@ export const projects = [
     {
         id: 'appalytics',
         title: 'Appalytics',
+        briefDescription: 'A web application that leverages machine learning to analyze user sentiment from Google Play Store feedback.',
         description:
             'Appalytics is a web application that leverages machine learning to analyze user sentiment from Google Play Store feedback. The platform provides actionable insights for app developers to enhance their applications based on user feedback.',
         technologies: ['Python', 'Flask', 'React', 'MySQL', 'Bootstrap', 'CSS', 'JavaScript'],

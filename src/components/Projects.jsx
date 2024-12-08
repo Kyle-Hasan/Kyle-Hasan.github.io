@@ -7,8 +7,8 @@ import { projects } from '../data';
 
 const Projects = () => (
   <section id='projects' className="bg-gray-100 py-20">
-    <div className="container mx-auto px-6">
-      <h1 className="text-4xl font-extrabold text-gray-800 mb-10 text-center">
+    <div className="container mx-auto px-6 w-2/3 h-1/4">
+      <h1 className="text-4xl font-extrabold text-gray-800 mb-10 text-center ">
         Projects
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 project-card">
@@ -22,12 +22,12 @@ const Projects = () => (
               alt={project.title}
               className="rounded-t-lg object-cover h-48 w-full"
             />
-            <div className="p-6">
+            <div className="p-6 h-1/4">
               <h2 className="text-2xl font-semibold text-gray-800 mb-2">
                 {project.title}
               </h2>
-              <p className="text-gray-600 mb-4">{project.description}</p>
-              <p className="text-sm text-gray-500 mb-4">
+              <p className="text-gray-600 mb-4">{project.briefDescription}</p>
+              <p className="text-gray-500 mb-4">
                 <strong>Technologies:</strong> {project.technologies.join(', ')}
               </p>
               <Link
