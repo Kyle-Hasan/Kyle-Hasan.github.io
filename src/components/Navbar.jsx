@@ -136,7 +136,7 @@ const Navbar = ({ scrollToAbout, scrollToProjects,scrollToSkills, scrollToExperi
             </a>
             <a
               href={resume}
-              download="Kyle_Hasan_Resume.pdf"
+              download="Kyle_Hasan_Resume.9aca8b2f8d92de8eadc4.pdf"
               className="text-lg hover:text-gray-200"
             >
               Download Resume
