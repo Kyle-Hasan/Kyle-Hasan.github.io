@@ -4,6 +4,8 @@ import dotnet from '../assets/dotnet.webp'
 
 import entityframework from "../assets/entityframework.webp"
 
+import expo from '../assets/expo.webp'
+
 export default function Skills() {
   return (
     <section id="skills" className="bg-gray-100 py-5">
@@ -61,6 +63,10 @@ export default function Skills() {
           <p className="text-sm text-gray-600">Angular</p>
         </div>
         <div className="flex flex-col items-center">
+          <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" alt="Next.js" className="h-16 w-16 mb-2" />
+          <p className="text-sm text-gray-600">Next.js</p>
+        </div>
+        <div className="flex flex-col items-center">
           <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" className="h-16 w-16 mb-2" />
           <p className="text-sm text-gray-600">React</p>
         </div>
@@ -99,6 +105,10 @@ export default function Skills() {
         <div className="flex flex-col items-center">
           <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" className="h-16 w-16 mb-2" />
           <p className="text-sm text-gray-600">Tailwind CSS</p>
+        </div>
+        <div className="flex flex-col items-center">
+          <img loading="lazy" src={expo} alt="Expo" className="h-16 w-16 mb-2" />
+          <p className="text-sm text-gray-600">Expo</p>
         </div>
       </div>
     </div>
