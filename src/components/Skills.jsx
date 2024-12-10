@@ -78,7 +78,7 @@ export default function Skills() {
         </div>
         <div className="flex flex-col items-center">
           <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" alt="Spring Boot" className="h-16 w-16 mb-2" />
-          <p className="text-sm text-gray-600">Java Spring</p>
+          <p className="text-sm text-gray-600">Spring Boot</p>
         </div>
         <div className="flex flex-col items-center">
           <img loading="lazy" src={entityframework} alt="Entity Framework" className="h-16 w-16 mb-2" />
