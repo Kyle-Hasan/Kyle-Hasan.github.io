@@ -37,7 +37,7 @@ export const projects = [
         briefDescription: 'A web application that helps users practice interviews by generating tailored AI-driven questions and providing personalized feedback.',
         description:
             'A web application designed to assist users in preparing for interviews. Users can upload resumes and job descriptions, specify the number of technical and behavioral questions, and record their answers. AI-generated feedback is provided based on the responses. The interface also allows users to view and manage past interview sessions. Used OpenAI API for text generation and whisper model for transcribing audio.',
-        technologies: ['.NET', "C#", "React", 'Next.js', 'Tailwind CSS', 'PostgreSQL'],
+        technologies: ['.NET', "C#", "React", 'Next.js', 'Tailwind CSS', 'PostgreSQL', 'TypeScript', 'Entity Framework'],
         imageThumbnail: interviewSenseiImage2,
         image: interviewSenseiImage2, 
         challenges:
