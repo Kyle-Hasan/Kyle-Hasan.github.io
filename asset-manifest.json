@@ -1,27 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.5299e3be.css",
-    "main.js": "/static/js/main.9ce4ebdc.js",
+    "main.css": "/static/css/main.4cb0ecb3.css",
+    "main.js": "/static/js/main.0ad64db2.js",
     "static/js/453.96cba20d.chunk.js": "/static/js/453.96cba20d.chunk.js",
     "static/media/job-pair-login.gif": "/static/media/job-pair-login.ed3bb37b8cb7cc8c3e37.gif",
     "static/media/job-ai-interview.gif": "/static/media/job-ai-interview.779b49cec7161ac3de06.gif",
     "static/media/job-ai-answer.gif": "/static/media/job-ai-answer.bf025abd19bcb98bda0d.gif",
-    "static/media/Kyle_Hasan_Resume.pdf": "/static/media/Kyle_Hasan_Resume.1d60c12b48927260dbf4.pdf",
+    "static/media/interviewSensei4.webp": "/static/media/interviewSensei4.253abdaf629d6f75bb81.webp",
+    "static/media/Kyle_Hasan_Resume.pdf": "/static/media/Kyle_Hasan_Resume.9aca8b2f8d92de8eadc4.pdf",
     "static/media/empathy-connect.webp": "/static/media/empathy-connect.d5e1304a43fbeadda881.webp",
     "static/media/budget.webp": "/static/media/budget.ec0b1c0e9f0a96b5c1d1.webp",
     "static/media/job-find.webp": "/static/media/job-find.e6f296a497563570de1a.webp",
+    "static/media/interviewSensei3.webp": "/static/media/interviewSensei3.5104834fda772779a0a1.webp",
     "static/media/Google-Play-Store.webp": "/static/media/Google-Play-Store.23aa461a3c276ce9c436.webp",
+    "static/media/interviewSensei2.webp": "/static/media/interviewSensei2.8afbd27f43d5f27bae21.webp",
     "static/media/calgary-transit.webp": "/static/media/calgary-transit.aa1b5718715f09a06fa9.webp",
     "static/media/budget-app.webp": "/static/media/budget-app.e11981f38b2bc849b59e.webp",
     "static/media/entityframework.webp": "/static/media/entityframework.1b35ac2798457c47d8c2.webp",
+    "static/media/interviewSensei1.webp": "/static/media/interviewSensei1.237a85b11e64afb8afa2.webp",
     "static/media/dotnet.webp": "/static/media/dotnet.6f17025975965f7990eb.webp",
+    "static/media/expo.webp": "/static/media/expo.9508022adcb369db30b6.webp",
     "index.html": "/index.html",
-    "main.5299e3be.css.map": "/static/css/main.5299e3be.css.map",
-    "main.9ce4ebdc.js.map": "/static/js/main.9ce4ebdc.js.map",
+    "main.4cb0ecb3.css.map": "/static/css/main.4cb0ecb3.css.map",
+    "main.0ad64db2.js.map": "/static/js/main.0ad64db2.js.map",
     "453.96cba20d.chunk.js.map": "/static/js/453.96cba20d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5299e3be.css",
-    "static/js/main.9ce4ebdc.js"
+    "static/css/main.4cb0ecb3.css",
+    "static/js/main.0ad64db2.js"
   ]
 }
