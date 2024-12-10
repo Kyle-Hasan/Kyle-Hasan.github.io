@@ -48,6 +48,8 @@ export default function Skills() {
           <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript" className="h-16 w-16 mb-2" />
           <p className="text-sm text-gray-600">TypeScript</p>
         </div>
+        
+        
       </div>
     </div>
 
@@ -109,6 +111,10 @@ export default function Skills() {
         <div className="flex flex-col items-center">
           <img loading="lazy" src={expo} alt="Expo" className="h-16 w-16 mb-2" />
           <p className="text-sm text-gray-600">Expo</p>
+        </div>
+        <div className="flex flex-col items-center">
+          <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" className="h-16 w-16 mb-2" />
+          <p className="text-sm text-gray-600">Bootstrap</p>
         </div>
       </div>
     </div>
