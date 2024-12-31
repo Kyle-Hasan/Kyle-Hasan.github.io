@@ -47,7 +47,7 @@ export const projects = [
         details:
             'The application customizes interview preparation by generating questions based on user-uploaded resumes and job descriptions. Users can record their answers and receive AI-generated feedback. The backend, built with .NET and PostgreSQL, ensures efficient data handling and scalability, while the frontend provides an intuitive and seamless user experience.',
         gallery: [interviewSenseiImage1,interviewSenseiImage2,interviewSenseiImage3,interviewSenseiImage4] ,
-        video: "https://www.youtube.com/embed/hpkFmcXdQ-U",
+        video: "https://www.youtube.com/embed/VHGnC7R9G6w?si=Mx9dVHPtpnRjWoLM",
         repoLinks: [
             {
                 url: "https://github.com/Kyle-Hasan/InterviewSenseiBackend",
