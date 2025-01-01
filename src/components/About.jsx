@@ -22,7 +22,7 @@ const About = () => (
       About Me
     </h2>
     <p className="text-lg text-gray-600 mb-6 xl:w-[50%] lg:w-2/3 text-left">
-      I am a fifth-year software engineering student at the University of Calgary passionate about software development. I specialize in web development and am currently expanding my knowledge of cloud technologies. I will be graduating in December 2024 and am seeking a new graduate software developer position. On this site, you can find more information about me and my work.
+    I am a recent graduate in software engineering from the University of Calgary, passionate about software development. I specialize in web development and have been expanding my knowledge of cloud technologies. Having graduated in December 2024, I am seeking a new graduate software developer position. On this site, you can find more information about me and my work.
     </p>
   </div>
 </section>
