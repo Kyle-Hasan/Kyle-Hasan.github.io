@@ -15,10 +15,10 @@ export const projects = [
 
     {
         id: 'transitSolutions',
-        title: 'Calgary Transit Unauthorized Vehicle Detection',
+        title: 'Transit Solutions',
         briefDescription: 'An automated system that uses machine learning to detect unauthorized vehicles in bus-only lanes and crossings. Includes a desktop application for visualizing violation data.',
         description:
-            'An automated system that uses machine learning to detect unauthorized vehicles in bus-only lanes and crossings. Includes a desktop application made using Electron.js for visualizing violations. This project was developed in collaboration with Calgary Transit for a capstone project. Code is not shared at the request of Calgary Transit.',
+            'An automated system that uses machine learning to detect unauthorized vehicles in bus-only lanes and crossings. Includes a desktop application made using Electron.js for visualizing violations. This project was developed in collaboration with Calgary Transit for my capstone project. As a software engineering student, I also collaborated with four electrical engineering students and one other software engineering student in a team of six. Code is not shared at the request of Calgary Transit.',
         technologies: ['YOLOv8', 'Python', 'Flask', 'React', 'Electron.js', 'MySQL'],
         imageThumbnail: calgaryTransitImage,
         image: calgaryTransitImage,
