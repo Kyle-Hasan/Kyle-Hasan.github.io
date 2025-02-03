@@ -37,17 +37,17 @@ export const projects = [
         briefDescription: 'A web application that helps users practice interviews by generating tailored AI-driven questions and providing personalized feedback.',
         description:
             'A web application designed to assist users in preparing for interviews. Users can upload resumes and job descriptions, specify the number of technical and behavioral questions, and record their answers. AI-generated feedback is provided based on the responses. The interface also allows users to view and manage past interview sessions. Used OpenAI API for text generation and whisper model for transcribing audio.',
-        technologies: ['.NET', "C#", "React", 'Next.js', 'Tailwind CSS', 'PostgreSQL', 'TypeScript', 'Entity Framework'],
+        technologies: ['.NET', "C#", "React", 'Next.js', 'Tailwind CSS', 'PostgreSQL', 'TypeScript', 'Entity Framework','AWS', 'Docker'],
         imageThumbnail: interviewSenseiImage2,
         image: interviewSenseiImage2, 
         challenges:
-            'Learning to integrate AI with interview preparation workflows and implementing a seamless user interface for recording and managing interviews.',
+            'Learning to integrate AI with interview preparation workflows, implementing a seamless user interface for recording and managing interviews, and navigating cloud deployment complexities to ensure scalability and reliability.',
         whatILearned:
-            'Gained experience in integrating AI for practical applications, designing robust backends using .NET and PostgreSQL, and building modern, responsive user interfaces with Next.js and Tailwind CSS.',
+            'Gained experience integrating AI for practical applications, designing robust backends using .NET and PostgreSQL, and building modern, responsive user interfaces with Next.js and Tailwind CSS. Additionally, I deepened my understanding of containerization with Docker and cloud deployment using AWS. I used Docker to containerize the application, making deployment more consistent and manageable across different environments. I also set up and configured AWS EC2 for hosting the backend, utilized RDS for database management, and stored media files in S3 for efficient access and scalability. Managing deployments, configuring Docker containers, and ensuring smooth service operation on AWS expanded my cloud knowledge, particularly in handling server configurations, storage management, and cost-effective resource allocation.',
         details:
-            'The application customizes interview preparation by generating questions based on user-uploaded resumes and job descriptions. Users can record their answers and receive AI-generated feedback. The backend, built with .NET and PostgreSQL, ensures efficient data handling and scalability, while the frontend provides an intuitive and seamless user experience.',
+            'The application customizes interview preparation by generating questions based on user-uploaded resumes and job descriptions. Users can record their answers and receive AI-generated feedback, making the experience more personalized and data-driven. The backend, built with .NET and PostgreSQL, ensures efficient data handling and scalability, while the frontend provides an intuitive and seamless user experience with Next.js and Tailwind CSS. The entire system is containerized with Docker, allowing for consistent deployment and easier maintenance. The application is hosted on AWS, with EC2 handling the backend, RDS managing the database, and S3 storing recorded responses. Since I am using AWS’s free tier, the application may occasionally be down if resource limits are exceeded. If the link is unavailable, please refer to the provided video for a demo of the application.',
         gallery: [interviewSenseiImage1,interviewSenseiImage2,interviewSenseiImage3,interviewSenseiImage4] ,
-        video: "https://www.youtube.com/embed/VHGnC7R9G6w?si=Mx9dVHPtpnRjWoLM",
+        video: "https://www.youtube.com/embed/VsmPa2j0iEU?si=C-J_bsVGO3mJdZ-t",
         repoLinks: [
             {
                 url: "https://github.com/Kyle-Hasan/InterviewSenseiBackend",
