@@ -153,6 +153,10 @@ export default function Skills() {
           <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg" alt="Firebase" className="h-16 w-16 mb-2" />
           <p className="text-sm text-gray-600">Firebase</p>
         </div>
+        <div className="flex flex-col items-center">
+          <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" className="h-16 w-16 mb-2" />
+          <p className="text-sm text-gray-600">MongoDB</p>
+        </div>
        
       </div>
     </div>
