@@ -100,10 +100,7 @@ export default function Skills() {
           <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original.svg" alt="OpenCV" className="h-16 w-16 mb-2" />
           <p className="text-sm text-gray-600">OpenCV</p>
         </div>
-        <div className="flex flex-col items-center">
-          <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" alt="Pandas" className="h-16 w-16 mb-2" />
-          <p className="text-sm text-gray-600">Pandas</p>
-        </div>
+        
         <div className="flex flex-col items-center">
           <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" className="h-16 w-16 mb-2" />
           <p className="text-sm text-gray-600">Tailwind CSS</p>
@@ -149,10 +146,7 @@ export default function Skills() {
           <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="MySQL" className="h-16 w-16 mb-2" />
           <p className="text-sm text-gray-600">MySQL</p>
         </div>
-        <div className="flex flex-col items-center">
-          <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg" alt="Firebase" className="h-16 w-16 mb-2" />
-          <p className="text-sm text-gray-600">Firebase</p>
-        </div>
+
         <div className="flex flex-col items-center">
           <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" className="h-16 w-16 mb-2" />
           <p className="text-sm text-gray-600">MongoDB</p>
