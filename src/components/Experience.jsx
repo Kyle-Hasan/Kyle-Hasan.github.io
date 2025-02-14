@@ -28,9 +28,9 @@ export default function Experience() {
         <li>Developed both backend and frontend components as a full-stack developer for case management and call
         helpline web applications used by 22+ nonprofit organizations.</li>
         <li>Implemented an online payment and billing system using Stripe, enabling seamless invoicing and payment
-        processing for 100+ counseling clients.</li>
-        <li>Programmed a C# program to periodically synchronize data between a Microsoft Access database and a Microsoft
-        SQL Server database, successfully securing a key client by meeting their requirements.</li>
+        processing for 100+ counselling clients.</li>
+        <li>Developed a custom C# program that periodically synchronized data between Microsoft Access and SQL Server
+        databases, meeting a client's prerequisite for purchasing the company's SaaS solution.</li>
         <li>Added browser-based calling by integrating the frontend with the Twilio API, handling 75+ calls per month.</li>
         <li>Developed a Twilio API-based phone call routing system for the call helpline, reducing response times by 25%.</li>
       </ul>
